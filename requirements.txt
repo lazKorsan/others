@@ -1,0 +1,8 @@
+robotframework
+robotframework-seleniumlibrary
+robotframework-appiumlibrary
+pytest
+pytest-html
+requests
+appium-python-client
+selenium
