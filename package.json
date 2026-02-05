@@ -1,0 +1,21 @@
+{
+    "name": "multi-framework-test-project",
+    "version": "1.0.0",
+    "description": "A project with Cypress, Mocha, Playwright, Python, and Robot Framework",
+    "main": "index.js",
+    "scripts": {
+        "test:cypress": "cypress run",
+        "test:playwright": "playwright test",
+        "test:mocha": "mocha mocha/**/*.js",
+        "test:all": "npm run test:cypress && npm run test:playwright && npm run test:mocha"
+    },
+    "dependencies": {
+        "cypress": "^13.0.0",
+        "mocha": "^10.0.0",
+        "playwright": "^1.40.0",
+        "@playwright/test": "^1.40.0",
+        "appium": "^2.0.0",
+        "chai": "^4.3.0",
+        "cypress-cucumber-preprocessor": "^4.3.1"
+    }
+}
